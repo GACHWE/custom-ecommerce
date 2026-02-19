@@ -27,7 +27,7 @@ const ProductCard = ({ img, title, price, aosDelay }) => {
       data-aos="fade-up" // Assuming AOS is set up for animations
       data-aos-delay={aosDelay}
     >
-      <img src={img} alt={title} className="w-[260px] h-[180px] object-cover" />
+      <img src={img} alt={title} className="w-[260px] h-[180px] " />
       <div className="p-4">
         <h3 className="font-semibold text-lg mb-2">{title}</h3>
         <p className="text-gray-800 font-bold dark:text-gray-200">Price: ${price}</p>
