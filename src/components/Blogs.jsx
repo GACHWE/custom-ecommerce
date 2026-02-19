@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../Layout/Header'
 import Image3 from '/Images/Hphone2.png';
+import Image1 from '/Images/earpod.png';
+import Image2 from '/Images/Adobe.png';
 
 
 const BlogData = [
@@ -14,13 +16,13 @@ const BlogData = [
         title: "How to choose perfect smart watch",
         subtitle: "We use persuasive language to convince others to agree with our facts, share our values, accept our argument and conclusions, and adopt our way of thinking. There are many different ways to persuade people.",
         published: "Jan 20, 2024 by Gachwe",
-        image: Image3
+        image: Image1
     },
     {
         title: "How to choose perfect smart watch",
         subtitle: "We use persuasive language to convince others to agree with our facts, share our values, accept our argument and conclusions, and adopt our way of thinking. There are many different ways to persuade people.",
         published: "Jan 20, 2024 by Gachwe",
-        image: Image3
+        image: Image2
     },
 
 ]
@@ -36,11 +38,11 @@ const Blogs = () => {
             {/* Blog Card */}
             {
                 BlogData.map((data) => (
-                    <div key={data.title} className='bg-white dark:bg-gray-900'>
+                    <div key={data.title} className='bg-white dark:bg-gray-800 p-4 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300'>
                         {/* image section */}
-                        <div className='overflow-hidden rounded-2xl mb-2'>
+                        <div className=' rounded-2xl mb-2'>
                         <img src={data.image} alt=''
-                        className='w-full h-[220px] object-cover rounded-2xl hover:scale-105 duration-500' />
+                        className='w-full h-full  rounded-2xl hover:scale-105 duration-500' />
                         </div>
                         {/* content section */}
                         <div className='space-y-2'>

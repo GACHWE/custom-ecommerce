@@ -1,65 +1,10 @@
-// import React from 'react'
-// import Header from '../Layout/Header'
-// import Image2 from '/Images/earpod.png';
-// import ProductsData from '../components/ProductCard';
-
-
-// const ProductCard =[
-//   {
-//     id: 1,
-//     img: Image2,
-//     title: "Boat Headphone",
-//     price: "120",
-//     aosDelay: "0"
-//   },
-//   {
-//     id: 2,
-//     img: Image2,
-//     title: "Boat Headphone",
-//     price: "120",
-//     aosDelay: "0"
-//   },
-//   {
-//     id: 3,
-//     img: Image2,
-//     title: "Boat Headphone",
-//     price: "120",
-//     aosDelay: "0"
-//   },
-//     {
-//     id: 4,
-//     img: Image2,
-//     title: "Boat Headphone",
-//     price: "120",
-//     aosDelay: "0"
-//   },
-
-
-// ]
-// const Products = () => {
-//   return (
-//     <div>
-//       <div className="container">
-//         {/* Header section */}
-//         <Header title="Our Products"
-//         subtitle={"Explore Our Products"} />
-//         {/* Body Section */}
-//         <ProductCard data= {ProductsData} />
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Products
 
 import React from 'react';
 import Header from '../Layout/Header';
 import Image2 from '/Images/earpod.png';
-// Assuming ProductCard (the component) is in a different file,
-// you would import it like this:
+import Image3 from '/Images/Hphone2.png';
+import Image1 from '/Images/Adobe.png';
 import ProductCard from '../components/ProductCard';
-// You are also importing ProductsData from './Category/ProductCard',
-// which seems redundant with the local array below.
 
 const productsList = [
   {
@@ -71,14 +16,14 @@ const productsList = [
   },
   {
     id: 2,
-    img: Image2,
+    img: Image3,
     title: "Boat Headphone",
     price: "120",
     aosDelay: "200"
   },
   {
     id: 3,
-    img: Image2,
+    img: Image1,
     title: "Boat Headphone",
     price: "120",
     aosDelay: "400"
