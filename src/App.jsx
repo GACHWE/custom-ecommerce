@@ -9,10 +9,10 @@ import Headphone from "/Images/Adobe.png";
 import Products from "./pages/Products";
 import Blogs from "./components/Blogs";
 import Partners from "./components/Partners";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 const BannerData = {
-  discount: "30% OFF",
+  discount: "40% OFF",
   title: "Fine Smile",
   date: "10 May - 30 June",
   image: Headphone,
@@ -33,7 +33,7 @@ const App = () => {
       <Products />
       <Blogs />
       <Partners />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
